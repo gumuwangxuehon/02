@@ -1,0 +1,30 @@
+# Hexo
+public/
+.deploy_git/
+db.json
+*.log
+node_modules/
+.sass-cache/
+.tmp/
+.trash/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build temp
+*.tmp
+*.bak
+
+# Keep these (don't ignore source files)
+!source/
+!themes/
+!_config.yml
+!_config.butterfly.yml
+!package.json
+!scaffolds/
