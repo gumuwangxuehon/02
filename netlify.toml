@@ -1,0 +1,12 @@
+[build]
+  # 安装依赖并生成静态站点
+  command = "npm install && npm run build"
+  # Hexo 生成目录
+  publish = "public/"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Hexo 文章使用 .md 扩展名，跳过默认的 pretty URL 处理
+[build.processing]
+  skip_processing = false
